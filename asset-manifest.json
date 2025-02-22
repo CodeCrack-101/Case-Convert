@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Case-Convert/static/css/main.092ee771.css",
+    "main.js": "/Case-Convert/static/js/main.728c397f.js",
+    "static/js/453.7477761d.chunk.js": "/Case-Convert/static/js/453.7477761d.chunk.js",
+    "index.html": "/Case-Convert/index.html",
+    "main.092ee771.css.map": "/Case-Convert/static/css/main.092ee771.css.map",
+    "main.728c397f.js.map": "/Case-Convert/static/js/main.728c397f.js.map",
+    "453.7477761d.chunk.js.map": "/Case-Convert/static/js/453.7477761d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.092ee771.css",
+    "static/js/main.728c397f.js"
+  ]
+}
