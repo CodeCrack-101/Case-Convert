@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Case-Convert/static/css/main.4b3627d7.css",
-    "main.js": "/Case-Convert/static/js/main.bad90074.js",
+    "main.css": "/Case-Convert/static/css/main.27e0fcf4.css",
+    "main.js": "/Case-Convert/static/js/main.5b5a6d75.js",
     "static/js/239.4f597125.chunk.js": "/Case-Convert/static/js/239.4f597125.chunk.js",
     "static/js/977.3a277eec.chunk.js": "/Case-Convert/static/js/977.3a277eec.chunk.js",
     "static/js/732.6d881c81.chunk.js": "/Case-Convert/static/js/732.6d881c81.chunk.js",
     "static/js/453.7477761d.chunk.js": "/Case-Convert/static/js/453.7477761d.chunk.js",
     "index.html": "/Case-Convert/index.html",
-    "main.4b3627d7.css.map": "/Case-Convert/static/css/main.4b3627d7.css.map",
-    "main.bad90074.js.map": "/Case-Convert/static/js/main.bad90074.js.map",
+    "main.27e0fcf4.css.map": "/Case-Convert/static/css/main.27e0fcf4.css.map",
+    "main.5b5a6d75.js.map": "/Case-Convert/static/js/main.5b5a6d75.js.map",
     "239.4f597125.chunk.js.map": "/Case-Convert/static/js/239.4f597125.chunk.js.map",
     "732.6d881c81.chunk.js.map": "/Case-Convert/static/js/732.6d881c81.chunk.js.map",
     "453.7477761d.chunk.js.map": "/Case-Convert/static/js/453.7477761d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3627d7.css",
-    "static/js/main.bad90074.js"
+    "static/css/main.27e0fcf4.css",
+    "static/js/main.5b5a6d75.js"
   ]
 }
