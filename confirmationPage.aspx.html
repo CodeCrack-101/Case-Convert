@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://examinationservices.nic.in/NEET2025/Registration/confirmationPage.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+
+</title><link href="./confirmationPage.aspx_files/style.css" rel="stylesheet"><link href="./confirmationPage.aspx_files/opensans.css" rel="stylesheet"><link href="./confirmationPage.aspx_files/bootstrap.css" rel="stylesheet">
+    <style>
+        .c-background--red {
+            background-color: #df4759 !important;
+        }
+
+        h1.heading_header {
+            font-size: 16px;
+            padding: 10px 0 0px 0;
+        }
+
+        h3.subheading_header {
+            font-size: 13px;
+        }
+
+        h6.third_subheading_header {
+            font-size: 14px;
+            margin: 0px;
+            padding: 0px;
+            color: #0026ff;
+        }
+
+        .table-responsive {
+            margin-bottom: -15px;
+        }
+
+        .c-width--30 {
+            width: 80%;
+            height: 40px;
+        }
+
+        .displayNone {
+            display: none;
+        }
+
+        .contentmid {
+            width: 1108px;
+        }
+
+            .contentmid h4 {
+                font-size: 14px;
+                margin: 0px;
+                padding-bottom: 2px;
+            }
+
+        .table td, th {
+            padding: 1px 3px !important;
+        }
+
+        .headerfirst img {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .selfDecl td {
+            padding: 4px 2px !important;
+        }
+
+        .form-group {
+            margin-bottom: 0px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container contentmid">
+        <div class="row" data-html2canvas-ignore="true">
+
+            <div class="col-sm-12">
+                <div class="progress displayNone" id="i-progress">
+                    <div id="i-progress-inner" class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        0% Complete (success)
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 form-group text-right">
+                <button id="sandesemailpdfbtn" onclick="javascript:return confirm(&#39;Confirmation Page is shared on Sandes App installed on your registered mobile. If you have not installed the App yet, you may do so by clicking on the link provided on SANDES Portal https://www.sandes.gov.in or from Google Play Store. Once installed, you can click the button again to get your confirmation page on Sandes App.&#39;)" class="btn btn-primary displayNone btn-xs" style="display: none;">
+                    
+                        Click here to send Confirmation Page on Sandes Account
+                </button>
+                <button id="emailpdfbtn" class="btn btn-primary btn-xs">
+                    Click here to send Confirmation Page on your registered e-mail id
+                </button>
+                <button id="downloadpdfbtn" class="btn btn-primary btn-xs">
+                    Click here to download Confirmation Page
+                </button>
+                <a href="https://examinationservices.nic.in/NEET2025/Registration/Index.aspx" class="btn btn-danger btn-xs">Click here to go back
+                </a>
+
+
+            </div>
+        </div>
+        <form name="form1" method="post" action="https://examinationservices.nic.in/NEET2025/Registration/confirmationPage.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="N8vgLrprxPlOUFJStD/ZLtwXrdLe4bWc8Yr3WOcFrLGhsMs4bNfvRe34KbuHuWuGHGn+nJDDaHJ58qxEhb4Or0VEArP0fki2BIbnUhxClODG1k8bPIETEJY09W3ppKRSaqWa23y78trNzHk9dBEhPF6a3E2k8b2T546XVKIRnI11wrUHLmDve6+LVFQH2+UQAkdaK9HGVnBX8hsoLCK25fxDVjGMrmSCf475R0NhI+Uhi3LcdLPOI77shyP4yp1NQ+QFsHUTT3j5JLKLfvsEixVcNIOhsezMoP9FL4umeKPGyA5SDrUcUmaP88aaeAbQwq4YUY/xlECT+8QAwJUityV2oiSGVCMCNc2dN8IEFIxiC8teGceT8ZKGWwaMxDB+JTy61GPYacqswWHmfMP26d2ABci61vVYegE4Rgig6C5mGThjBwMKBGnfzUpf+ybJdH0xK6FwLMMnJbPNwChSS48sQEk6xFbLO5enEZUOHS8JRHOQMNjljtufx/bIzlIJsacOFa3lmNLHkBWQLtZA1AuOIb9/0Az0WlRjzqaJEnPKYaeJKJRyZaURVpl0aNsSKe6TBj5JxG3An/uADz3je0te9iZQxLMPX6RwzMdVn8WPjaBMJIdmhcxm271ebqnC/yAN8nG0WHqhQK1cGb2ofMJEJy9DGw0Ww7L89VxPY9CuWNCuH40c8WOH/bFM8ETABPAydlWPEsWFlomwKG7il33eVpLG9EKhEVm5fM1ZBriaE9xaVOrSlMmwV1ncAsK/ZorJ9F3ELehMeozDtij1rcpfkzRB/Jw6+N0w0POum+weF5r/F14lrlz+LHLcFUtJaah0ai42WHB9xUOdP2vfLeQ01UUuDNK9EfdhtnhfbgknzqWx4vLBs94YvL8Mwi74a3ApLIyDFHR9bab33dsE5JbbWaXm3F5/NtpzACOweyF42JT2LTioSx+rC+lCEZugimtxZKcN/0JyGeL1e/O9eUQGkiivGhVgXizrDCkOFEaQ3vYqHfQjpts2cGba5mtyXbuxyh3MNyV9lofAzC9V3UsTNNWSKH8ictXhkHnSrhZLul+VfUEnw7h9ECeTJ0cgyTiFEiSC3knODj5yFotIOywTx4EBSezG1DuGVaQNN1V2RnBWepwcAx+DN1F3UANq1pCWC3Vq/qLkWic8f1jRLtbR2jPJ7YpawNf66dUe8opE+/9yZb4ejscrKyayPBBHMyhdRhOCl4zzvQ5UYU2vPfB3xxktGYB0ULf7UEWn/eAG7UG+rZA1x1XWQHZ74Bd1+WyifosIDByAc+fJygNIJ7MhjA/DrMCQ3mO2mdG3xxqwPIkLVJiBXQfgPAENU0D104pcIE9zq0aig8jPfs5S9M1hrVfekIkb8kBm3iTx6+Jp4ztK45qLrry4jNadtCJb2QxXaVqCfgxWDtLlyR3lMGwWVVS43xvkmvVHEVDAbJd5//W9COXAv6Ctpl1w0XP90GOFWRBvDK0O4JXyqJM7QLKKcUF0T/gE2S3gG+MzsVjd3z0J0+Tl7bd/MmTCsSEQUvcBe5iop9FHrqNUxtEHdP0cqmQVR1Bvsnqnr+FIU+ZBhi2gnb9Kgx52KKnVmLxC2tpztTz7z814cZBHPDK34pIIwL7XP1t1jKjvGvM9pcvhSKp9xHrC0A8zz44lhs7qz5JotRziOslV0D7BF/wNpPv6Uozs2tbTxVaLIrd7eqN99pjDeFitc4VXRrkL9y7SSa5NzGbt52UesH/c+G+9dY1dMv0xTrijwh9JiOKCHTgLfd4Tgxexl2Vw9yejSbqNbOHcHb1jK1ZdHxE6UY7MpK7YYhvrDD1xUvuuQm+A7+3retCxsI4KyG8UwKhUrhTrAcdNn5Ldhnhgk1/X8ylRHYO+NSePzAG4NfA7QHZLio0IemyGmmmOe2WtYnOjjr4NjshWZf/Kh73ev11bY8E4+/ZRKypVg5r+LSlhPVinRFUPQDgweWsvu0N/Oea6FF5f2VIovCA06I0TTe4wKvgpk/1pO7sGpLSO2j8mGTNPIZHlx6PNrfluhhMrwsoFOLbHtFTlSU3Ym219xWhfD6ZgrEQjA2XWjTyQOs/X59/tGnKiyV+cdTplrLx1l8pOk95m7ZFTIm8mRFNauMHZZ9U9uaghuHwlZzryxhmc3qaYEL91HmbqAVwaSbj8X9pFQoicgi8gfBRTt0pMmpk9is/Zo4S+9n0R+COZrlEPtB+AXgyvhOKmFWLsBV2ZB9xEjLox/PmPMhuT4XW0HC+yYKkXnO9sFa/I3BsP/j3raOqQOijg+ZO/d2vaYVzkEyUwtFp1O0hqlIVGZDU2DS2tgTBv6B7Uimh44z4Ahp7s+zEZMSW83/yfrKwKwY0DY6fMTR+IrV1NDCSQoQMobFg1EybfTa1Ux0yHeryWQDrjXoYouIRZlonaRzK4V4ZgVw93Gp82aeR+aRoN/s4GTz82umPeLSV+cOFu1kLdRqNZg2oXnVNYgtDrL+QfwmczRNCWdhaWA4ydhaW1ASWXXLhHXo5IrZYaZ9i5UFj7mFQ/5uvxrldKgDu68LGpteiwUmnWB+rbCNdDU7rP2sDht1197IcxUQxYCn8Y+zt/pmKJ5C0+IR+V2FTC8woPv0PLyAG9MxcTJB3NCeACD1U0OnSYDbHKofyZ+GHgvXkM4ZyPCDUKk2LQef/OA5QkKRvF41L2bf/8KO2HrjlT18/E41+vP2W03vjIoGxbRo2azoS+5+hHDsnKxsfyw3+8tbA5OEZfVyqt0QzTAORYNkhun1Pjb3sHXUBYrGd4v7OWAOqetABqdOTipepVWSz/lKPVsQYTmaP4Z3bAq57QLhqmf9LprQ1pii9z02+jkN7xtDVkWcnP7aS5dtQiwhAwRuYFieMnRudeHdcvL5r2xuCB75ZoeiRzv0NSA6EdvrP4+zHhTsjUyBU2ZU19DaN2DfNEBymwkvf/5sxI95doLdZhc7+Qjz5IDlglzFNCacabnV+R3emuybqBKaUNVM1p9DGHFCPiJMkanxgmIyKhTnXeBr3cLqLVIWoH/lEC70yXODZM1HYwWTQ5vHvzZMC8hbVZ4KgoQyarHgD7yeH5+Nzxy1EjP5IwdSteM8f/16fdReilMqg8PkvVxz0U/JnWxX6xql82gldqrVOAYsoni1dxOF/HWtpqsiPXlXWz+yVZq1/8t9pYxskfZkWu1UfcEK0W2Kv1pxlzMUjcvYOYOQV+XhdANOLsgncUsaGd6PSGvWw1KRCEE9KqDGb97eeINoCcXokKPZ3T0yMkA6j35a1Kd++E14gUabZeFsVpjs3+YhHHFvm71qQKS8Nad1OVgkqx6NtnP4AymkPaO7kldy8oep7xzrtgrhyNq2P/5JRS0504fngx/Zyv/CiMnNBDbdV2knZpE8PQVZ9HlfY67kYgYhUIolpTg4HH21Lmnuijwm7l6gGYF8QWDEY5JQ4NSGbfW9DIru6xoK5Ieb6eWx1LJkRMGyZIXWQBgZTm8/45oVrNLEBF97dGyoM5gJbfCjDj0i9+z9QyeN5e9a8VsJI3QSSY15x+Ym2YxjI7peC8V7GOxmSDG0baCPrd9N2lGtXrxOwDHC8w+1mCU87rS/rmSLs9zttlkAZTNr4UT8YK0ucw0nGf8Zc6nOsOH3yJkeh/CGIFaZLJNN93rBRLw14LM700JNRIE1Ly7szEu3qy/uPzWKFPg3oMTKTvqkEe5doa9cZftv46fVDaMxnRwPyD+fKNtFnCk6dOiDw1tA2WHy25IjVB0uqrx2Nb1eaUJ3OIes6jceS7iso8ws1iWm71GypL2UD/lBgaqyL32Dq24NMHRfpXeOw+zApy4FEBgRmBMfsQSWPslvBzwPxAvJ3QdybgqWSQGiV+kXbi09aZ8Lx6Zl0cOP6vsdIirOUoatJ28A2d3IDoV2tgvO+Pfbyd1QiCP1xKIXXFkGT3mWeZOib94f4pNgVPdzohLEHPbXm7cUXH1a4z8Up9XHT10at0n8ZXLOm6RlG5EarKzDLPQLuBT7QW11Sxp3K7LbHbpirkcTXLPVK/0tRJ2s2Z3PfAwyfAcsmmOMFuquBsk7QGkQ6V/pXmZiuv4f5lJueqr7KAZGOOl10AgMLP3XefM5ij8sWvKiG60KxmKUsOC2ZIyV2STTz/IgE5xDVrmMrMu1UWl4GYQLPN46SmiQHtKPz2HRKuAj3qDcHRGpdgOZCDOXG5SfjGN+W4veWVkemOe7WTIeLdVX4vVNaIIOp6JenK6TcWWQc7/1e7i0FyrzB7HGLJvD2hJ7Jr1vjxX/zGU7yZnpYA4/bXX7jH5ga8aivMidhAwsXzqck/xMC/iF2369K5EJN0ukOJr+IVY+qsVgHi0aYctXjMFiA5bBK+iUa82CCXKp1smU7gn3296Dss/XeI4QeEhYPGk7EymfIYgdggAwNRghQbfo4uSoqCXNgSnvX7DIZRDl3KXCX/rQKH0Ka3c0wjXZ0as5jcUiPPG3dLBsSHWKgEDQMPNNnTD2wzva7uOjLAZ7tcQzYYzqBwQxu1pS6QFbuPlAXUaxxdyaOigzjQKvE9e0SP5qW2GSHjEu3ojJ1vEy6441ZVan7L49y8ZrmOEYOE4pXxnnbtjp0gHGBqLV9AtTC40wt/QdKdJ7TV1nYJFH1mYc/VX7RUrZj+pN142pPCG4lAHB56zlt4wya6sQl3YIe3inbULf+71Mj9F2QPw+sBFkEbsXH5ZR/Qx+50UQcAb7LOyxfDiOM4cGehEuX3Ynd3Ev/QYgNiJI5cDkJra5jGxxFg5pQWlm8EJMzDOvyMx/5gBAcLDCBF4+kU0LDHKKvR8z/vMCZU7sgwJX6/9CaI8pYFe6A6VXw1jUATlM5eYFWnLjLwF82xp8lsJ/1pdDOy4g2rqr+XV1Z8/oAOZarHxgETsQ9O18DSxPHuei3u+LA8r7wsFGTULyyx8DMFHbKvqxIJnjjn+HjeNxOo52mgWrNzUSTRtVQSSJjFVjm3VX3j/RYqHH9OGEMdQltMF/4/Y98i4BlYD03tlqQvboRzMqxm16mBu/g5fg4rR+LLRZ/9DQrge86aJfYObikfBJTtjUYQd1smBtLe54nP3aHy0jgfprrfsNFGYuloFOV2Q+2T88MHiY0cucoHxIZC7EJ3dreMu1CPqXdJn7qum5dDhUIsUEzeAIUCT7zAj6iGQsAnvNPXxY6oA9EFYNuAknNrYU0R0MBBAitEPIPi63R9CSCtShqk9XC06uNfO01zm1HgKNytmvYlUt7gQT+Ig+hQkAPTMrh/becDrCGzhXCBgv7VduV515zfhELAuzfuyc9+6mc1qntzL0BZ+9kIp0bFqpJ4ulIGvW9qqnoUhwm365BhULYlTZQ7kCM7gfHazQUALmpnPUhO3slCb1LstgcTNIv9X35g7yVpL5jRTJvBMUkHNWs496JrJPblOc7apwwsxxMm+tu2M58CYg3zzZzBF8R26HgnoaBz5h48yYEkLZdsFDulny6KK7Fpp6aNVUwMi5dTnSfv3q60mdPY9Li5XhD57HaTG67NmP9oUvSBT5qJZ9u5YbdzTGGrbec+Z4VwmsarvR0Ufyg4qMyFfDQwJeu3GQN65mOpc33fPi/Cg/mOVZXAvCZve+tU2tPcNQj21KRHLTZnJWiYk8Q+uRnhZU+GHzlejhy9wbhl7hIKinOzgAJ6r8etBRz+OaE9jvoaRpVb6Si2jX0I0UndQyig/Sf8TKLyQ+9ffakDIzkQPQax6BAvXbu1JjR8BJHXHhh5/cHuTL4pMwDjb0UNOg/9Fms9YhTFQ+l2y2XRSxxnUVoHPQEZtk3Ncfr2DuK3S1aktGF65CqDsDGntqQY6WeWFJLKuWKc1cW4A8d8+H2lSJ1XWAORFLKDKqUsBswe5x17ywGzY3TOgBg4KPHbi1+bhdHuIs0oCpAutfAHFM5iDK/svdb0SObFx18r/z48ksACXQxS5ZetoMnt+kiGrFjLnXXd0XDHdGC7Kh6QEAJirDm/tw4qfwxnWWOgwbh4X6rMLuCBIJYGZ/IISp4LcM+uUBVLSuSxdX3W72bz8lja3s+cREJi5MpJIMYKHBFLAVRtQuF1YcGjS+j0sL2HzMqjqp9q+DjIhhCUsdX1H/CSpI2jYLS761wefyLyA4PR7WjOqO2eWtpS2O8ZBj14i5ydzZk59hGEc0QGKlJ2T1bnY/Vhw4hkyzi1zp0MTuAr+BFDSSnLoWtzdccfD5HhMPHg2jnrPlQF22Ewgg6RLI5lzq0Fnbr35kvt0Da4XbWuYX57vUomZE0U9uIl9BwiMNv6Coc6bMt4nSOHhjW7eFAmj9H+k2SdM2mf10D07OVaOHgJzBI8Jy9dVQQiN3Kcgg7Y0zd6enItW72SB3CmNTQrwve6HLSR6N4gMUSsOrKpwvpEEHO+n1/Zr5uOSEp50qctfY+RfiBQxDdA+Z/c3YpLdBHDCbWkvJfjH7CNHrJcwMeD566HIjBVHeT/tvsqfHQ9pR9PD76kZu2e/sHXvzzrdpOiNLc584ZeqU87E1b9WHdWqxzlUHjMI1CfiPvPVocRqDALdL7WKPYGSYrqCxIp/9bZeLBDCAAJdJR+docAgrxAlx6/WpJrzzkHbvH61pMkORdAtFrmFezMAjGXUI5i6uCqsYSEmp4vl4VKBVD9oR7mJp274eAZwMrrKRXQKKUvT+iyP9X+wQfSX4/E9OTSfEbA76IxCA3dDJdyG3g5fYycdY0w9vmFZbY89RRKJKL2cvAojAakowLDxjhSFerLJM3XgBDTRLsKYFIoOPBhnoa0acdGaOL43sEGInfeObhuNYbRmwgq5IYnOZ892copZmmM96bUVsXdUDb9rnjlDa0ARLqDXcmgm1zMO56Gj+iXoyCL77XBQ0NM68RplyykUtexhR20BUsMNPKErOZSBIi5nFoNP8NjNoLi/RG8p23rlc1E07FPoL6Yt3coIeJIfqZr7vxHMz7fSbuRtOZuwR4VgekiB2377C3e+JxPVcOtt9ndixWkTXubf/z/EsMwaDG73JPjz9jOBYksRcskEgY1rF6qcRWRvNX6BwwzG+B7JHdCofY+nwCyqSIe+umG+xFgtFZTBG/G/w66kj34BpXPbBFskoCy4e5gw6P/lTRV6of/whVlH3Px2Q3Tqrs/Nhi55QoJ/jeo6yejFasvP/JPBwgXxxFR74DjqUCDoQlrmL6CQcNL4EdfZCMRPzCjec2It+nOrSsx0/mRIbAo8RPq5qvDUIO75az3hdkRe/XoNH6RzjJ2eccLUcatSKBstuHLUAT1+277ph4ybnEBUQgd2vSovCXtxZ0Wxg5cXqZ8G+f3NTO2wVJJugRVBqo/7LX5kRVci2apggbgK0JQB/gRXGzFyY/BAM11E7lF9ENNjubjn/iFn2/7c8HlbD1nhVtXZY9+OPLLmvcsma48yl1LrJyQG1sE7GyPT0F9OvR+neoP6V+VqQPdkxySZ3b9FfPfwHumRjR+ejd9I0HyRQPGZRxp45rf6Lkf1TdTRIi2+1Z7Hep29oMXkbvLpSD3A9Tb4CKxnhEKvcg/QZGiMp945cyW4OtRBksE0tlHGhJoFEhB/5ZdMBUgFBSIAAUAoc0e+Cmaz3ccBzFG77d+XKDN1Ju96ZKNRKoLdBXjgfUwPSjvzp8dym/LQYlHFwWtorlCpqInNmXbj6vuy8rs/f5MElp7FjufHxa7nVaoyFNTwlBpWvHP0C43G5UGOWYAZJfiad2YgXDT3VWI99pLP/NvjuCFJ9FYu8ZUXOXiMnp6sQQFSL6V7ZoxgEauw/ny7GSG3d0Y9wFIyEzbC6LR2Tc1zIYLp9hEYE6ot/DykjFAbceTUbfoiPSxyg09HlGcGhI9uuhMHATFfw9hOETHP+1r9EHXk4xm1lx35z5ASDfR+5u3FxqAO2uWX+qOzTkjTY5y9LRxWQNR6HLQnFbpeBEDkwzEzTyNrnp35cNtZwwI807WfT5g79UWEKVuA9I1hGdZ7cJzVW/TeTvJwKe2LfW7I+yYlD5/wLfQZgvTk1R4P8BCoLQTaaB4lvheRg9xFuTLSVKnCUAe8fkYM4DtGrkPdPEzpDzt57gvk2BT0Ku3utlXcz9CXAmRZ9VLlnQKAv+eoeUK4k55ZNtLWCHCX66ZO0b4HVSm0VIWdKTC/31E2l6/UtkaAovvHWvFjLnaUR/nSxVExKTk+98Tqiw5KBCMkT9zJmqw5KBYVIwbCv5St63sZJs4wYGmcLslFU4vwa0BbGSl6xuEaJzPzx1RmRv1T/EfKNRhSD+b8A9gGvihV0Uqnwvd8ZSIhpzP7Tl2q1X+p5H9KoemztUocAW9wpGbHqEEeaC7Ki6RUh34ZE26DCd/4+VVCh2sW2pqWyuH4HfWfk7AzEKKJEEtbfMXbCQP5RbnzKPU/NE3+JKRYFuy2T74TsMyJVZgf5V/rgZf01qgL08qVRGzsLNjN1a9i4+qFJud23yks2VjyXNNZYh15GyrQYhaP8A4xhyiytoGlSfDd5nD2IflWJPNTcvHN43LmqN2u36MK11DEvCYIYIWIYJIpZEFIDdHfOUfFd2suOdmBG6cq8RVb7Nv5rb7acVl1aN/SLvCwqbVr9xTegPIiSycRe4rkKWEdMsXRqmmsWTa/mrvolAqQUtON8eW0QK0xqC+48N6K9fHgUcf89uzOdcRcu15mO352wUJy9xRLT1DNx/sKjxW3Ub8ANJfLI1WzhxVAtsuNrLIuu7hEwt5pxv9OnC9PW5C2mOVKYhwBlYFmTscM9IXkEbdrphyJRbxgT59i8PtBqpPyYyvNeFKmltGONUqhQ9OcqwP5N3zj+NzfQ4KZvv5RTfaxjbL7QH5se1tDBXPE5o8nzX6w/HdbF9Mf3WhJDRYSsr+e2TME8eabbYGix0ZlgnlqOAjkKJ+FVrbw8WRROtMTSdNLpwEr/TOjVMDW4wmxwrApTwYVQW3Os3PoB9R8nrvQq2jzp60LWLoYjwV5wYz7XuTp1H5BwkhUTJWw6kRB2vNX6gge3OGBo9JgVC47Uc9ouoMqYaRvQELW/hfZULAC9fJdbH7j9O9XTiISF+i1dIu6NmdkzmNC2CMFnzJ30/qqgMEBhTy+C+nmJsTqFIGaoz+FUNRFFEt8v1S/XPY3euIhedSqcy+dgYvEIoyj0OfWIrwYwwxA/jHLEA1WOxx0RNWiZ+izlr7mRFcPrEOhcdIdnm5kmN4ts29xAfBjGrGsT+R8FsaQW5fxMYmWnxYymiZJ3S+jKw33dxpwB2FR46ioB7Fco1NUEUl/b4Pxae71gfE8VJe4T6544GKYI5lfL0IaI2DpKm19c5I9Le80Y3TKYgRG42s3Q5NcrAOr6hEDmxnOmMt7awCGwGB8ZQRNnEq0WapftQqpUT03h7BG1b+hP4dLGlvHwYnN8Vb8Ry0TnJ14gX9BPXIupOT9hPx8IriaJ4KRIcuiBKPSsbEBVlYHbGZLEJ4OF6jFoJDkNxloPXl1YtqN6pcm9OSIpmXn7tvsDNVeAz8y6aNX7137b4lsnJKzqP7804rE6MHoq3y1RNb7tPZZU99HX33sINz7o4OChtz4985Wt08rvSVOIH8G/gr+4dGMOnMlxXAQQ/W118y6NnCvt/zv+y9uxdFMLkKOj36YlCYcf4upGalAhDSq6bVTR5TdBxgdPItWBCNoO9MD9xh/6MoEmu8xLgllnXpq3XkAUfa5bin+wT4dqdOKfZn0WjpF4G9T74kBGRUUVpCmvs2e4G0IjlgiAZj1ogr2Hi3/ZB9EAv0jGMND4eVRKppDEdd9fOA3tAMPFe+fPAwC4w8t9SvwawEvqsno2bL5Y92YFeL9Nx77Z5MaBOQWCERtIGIjz/26T5zlbMcHf8Z0mMHlfcnn673oXvoeSmMSbpf6+tr1w0FywoE46Giqh7HNbfp+KsIK9fQ91v24LE6ZwladFZhyfF7WFAWGYTJN/x7/AiieNqY5G+855/uXhTLY56RhBwECuWViLdlu4PQNk0SG6WTfNAKBcMU0ycvhxkiLWWWa4mXtdn1Y6Ps/cPtpLifPoxAsQogLfxYvYFBdm7cT2pUoYgV2qcyj5Pp0mMbeU0PKx1bR6LqgwrDlJ2r8gVDqnogUuMyAnmJ9vvJGuDq/vbAcMgkLnxL+xOOvNiSJS936nC/RTsLXhgZistHjeQC9xbnplrwVYcrlT+RTzkgoADyaVrstN7JeKaEWUETRtSj302Ac+nrJZY1VHuu5H8xTaO+rpUox95t0P9hQFBl6mWFOqaqI8nt4YETZsehSN+Gud5Iil06OhFQAiR6D9FAJD6//Q63TaXrnrO6mADCIYRam8iMo0sQZSIaqI88VbMr9goRi5UX6bljOsvZ8Mg8vJIA2FpEyP1gUp7yV9DIRpMTt7PgNGhVD+2YRc1uGp2/53xCP/+yqlW3uwcb3jEh1ofb5NT33kPKHcmtQvJVMnLEpPv6preLWElWMKeO3X38k9gTQyZA96jWD0ATMlGKwfPwwmggRujsysqzziNIj959HzsYhKIy95HI9eu9+ABpg564Wankk88xDoxChDYCqmI59/2akLSzwvZWc2J4GP78nbJWxcu9MCCfQ6/Bh9yvNpbUW9XzIKz7OoN+6C6gCqbTInuXB8Dbya020tqVbSYkFhQdZnpbTL2w3pIaE05JDY+TlFsPfuIAC7c30hiEvbsnUfS7VH9mTb+D+0b1RSPxZLZsU0crmv+ramzc43l/M1TxRsdoCWFDwzOsDgy4uBs1fri7/VVjunK8JVOqvVs7e1izeioO1qaSzG2kpEXhOTS43ktDTXn3pqB8PsHJaRpGwKFZBMJddLVx1tCAci9rZivghvvQ+WgjyVBKcgthN/VsvU6H2Acs64FJrdDhTVky79db163dwS7kbDQdLgVmlNbFR5Bb2jQuLQ1bz4PBReuASfywBP9yWcmOEG0pLHw8BaVcbhUxyVXsda66P/UrcR8S6bBE/4PxrSTGtluHM6/sZeKB4Q8TkuWTzWuEiy84gvP8DMJDp9ahiEMhmSmAZjgWW7Gn1drIqedXBaJCN5/n5WP/zfWLxr9+ZeFzjvp338MRF4iDdvK0VxYTRCWkVbZjPSQYvVepD7nufz2SzMzUfT/AzSM+NRSybcQQDV4mTArRtqabuCMedOivONJ4hi42iN7kDAY+V7if8yvSVEILJs5HRxozvBKak5spY0Ot4ZjUKBTzynzGcweX4S3rBjSV91/6FaCWPj9JIx5aG8wMcIHlN+VXb2oBXrB157FGZIE2lusYg8H+flGmdc2cdbwLpqiQZtzCET72PG/FGwcPwgcpwEO8vnCt4WSjbqqpKken3Bme5qPmX2FQKX55MYg+ssd4jpIl+7YMxnJQjs9oriZDLMw3ixIZIbBlZ1EoYo8IVwXsR+FvV8aKlnGeeJf8hKwt6OM0jBAjvNh8T2hpku960RdYzg7CmV6T9k8AbM7nV9N9ymBTMscTwCATa6t3OKFLIhJpRPe42XyUXwiVLefqT1gVeyleYEHJQJDQ00/81ch1NzrY/WyCm+yGk9Xhkd7y85UdBCrJn5z/ItGS4Yc/zBkrQpieCXQRfz39s094XzPTH2PiY7Z8ffYE938QIYLcwLHfjjNYssmqOwNKgFZggjy/TNPusdkRV6k8nP4Tn6/kpRQ2hoKyGewwpDN0aKn4yoQWajIOuaZpjKiqSLn223NFixVuiUOPol6CMpErOuAKxhVoIhYeoV939pTdgsG/z1lO2qaOG9aSMdRGDocsCe2KEcUCYu2g7knAqOyF2J766LyTkH+uhtMQ4pdH9zFJQEt2x36MVtRhEbnIxEiAgNGKQaSAfAXOP96YSg+JT4pjfYIjEU0bwNaaB/ALmZ/GCDx6ZsmuXK6w+V5K6ODktFBYQsgfe9dE7nLg0tWXM0RO+RtSubTfqzGEsrgPaEmbAMl8m26WTN9mAyw3tKH/eqoYwrU2Denx4BwGmqT3L08Dr9pJruotDWvhl2gQrbAQHW+1Tke8Nw7eskn9XlAzBohQCX1YAarudENngjE1fEZxrlMuwNVex9epKJ7pY30PbviTd8Y5q1m/82Yi2Mb5ZfgTVzIGBMiZ2oJ5xch8aQoY+cAd25WT7KhgBpkYV9w/2TTP27qRWxYnS3Dx8wimx2C3ivPG1YMUTRWJcNl8wGOdJXqyHlSLhPkAy6caoKTfmNwWJzMAMOcrkC2YA3IvaYvhq64/k+igcabePNy+uTHM94m95vmZMbvsKSis2silJOmN8PvRwY+e3M4mkHjx+Ivla2o+Eck+ykvccJUZZta1iqtNa/+RH2ocj3Ov06E7plCbM07OG5Z6uE/ACOziqIE49ByFY32gnEmkDikNOUpYt81xxejocTvk6lpcRO5Xv+I2F6eD+JLsZJTq8YBe8C7lSEeRetNjJETW9pwaQR7AP9ELt9LOfrZ4aRORBdrlz8E3O+j/gaycwC4Q60kHOGTGdIu0u3yxOFE9rkfzgXo2Q3KZj7OLDYIDXCPIjQayjtnzJrqkB+wF4j8zf1LCz5CPlXJlQ6QNSSTKWmE7dTA30vXwiAe8tTJ0E5woAb4wg3m07DzHrmtSmM5XNvetX5ncaEyiiLwUQVFGUHrPUVCZMD81KItV06J74QAcyUpr2mwgE3yO/Seq4O//S4xUzpD4Qa5jmaJW8nqMwPhHHw5vzUQJ8Xd+G4xCHX1Y2TtVCypGb3QhxeA7+s5WKARJDnJ3gpHZriGIZplRNmMmuyMQI52TcsmJka+nDkwz8e+XdsXRlmr/5iTHS7I4rJ50kAyvWRXeAomw+EtFd6ucrJi6prseNJ2vQCJrd3P9rd6qJaP6gbCL8BwawTlxHtzRRUC+u+7p9TTBvM8pL3o5bhxgCP5YnuvnuDgNTprvG/QceRXKMTxiMyefF4G01soDUFRjBSDEtSYpQDjBBsdeMieQ9D+CqRKd8J9faZl4kFqZItgZk4G3J4lM0OMOAlsc0UAw8pmjuFeXH0eZymL+1yQuIhOO/AnHcrqSRw9cfe23Ea8phVZg0es0nrz+9ucJ6mbikP3FrNJQWbjEoyzFNDoI9SEK6Rbsdi4DHvARHTyZUD0uyhqwhUwIez/kPW2HJ9t92tS7KGvTj7ZSBgX9Ha56FZ2l2OoghkPVTI8rcHmq9TTQRp1ka2D2k0c0yOoWgwPJPAXzfA7ZYK4RilNh3DZWeaUSwqQ+38I5Nwk+nAxbbFLVrixlu2XUlbLL7vgyUwo6kuO9VnfcSME4110unr0cu3wLgctlX29ExSu33Za4FQEG6elN9ibcYspREgfAO5drbHAF5nFzpAfLSLgiGCp1NfZ0J+oQ6c+1j3TpGbyzLOwXNXsWs534w3LLVFSM+XhgRiuWvbwAAW1zvAy/0xl9oIjDHmBsTUVHrckTinoZL7COxDFuhy3grh5P1Uf4EUKEYQi14B71koVqe0sI8QylmFJXsK6LEGHoLoI+ALCWNfxAcyySVCdTUD2z/eaaFmayjFoQftXOLFPdZGQe3q2eIxOp+ipl1bKKcbPo5R6aECYqvV8JwqE6qDLWlBGy2edISYVCAdQ93prOSmkQnAGChDoacI7a3mNMnn2fqCY5HzZ5vH20eE0IpfbAuq21dV6bhs2KSriCgb10+P7aYPUra4RUtQ3Nbw7L4sdzrjIqlmCTNsTF0sR/tBIhLr23W9+R2Z/Tq0EeF95+u70Uf9+XdAL6NFuVWUdweLMn7pZ/IIp3pU5rL9N6aIs+c8x2lpVHKF4BPRspaWO2E71W/saJNPXtDKPXQsIFQM59rAZVaulrGLPz1aOMW8PObzhuz+pELr79QSNgWcB5QtJtSkYHJrD55AUlms3uYV93ryqy30/wZ9OPijiF1QkWAuKt5LHLZaotsP+hESXg3QC1qYJ6McUPJGGprChfPRcMd9iwhTLh42GHlmXoJtIMzYOU3xtbx3qceW1kFZFkSNvXq1T1/oA1AX67z/8AQG60/HeKRwnQg2B+NItZyDALU9kXoPAv6rU0DeH2Snf1Ag+81xqeBi3k8cxCPS0dBau5SAJzZe/Qt84D3hFIPE0dMYCLXSWdNULDhqfD/Ni+9YTRYAhkWDziO/mqeVOnKgAW6FEprU2ij6JiQiZYER2CwuEPAx8Rc9ocv2bsQmZyGftIrptzls3qwWY5HeUvkoid9y9CNLG2MIYu5SnZINN+WMidkMfApdzd3rvAqufogkChUUZaAKIr5Sz0bBwjzDUCrPSLbOgGYOJ1OilQGAdE+EjHsJa3tuQ+BjEGPo4VW7D2NIFdE5tDjDnN6wY2de6ljmJ/y/LZ+/OI2oPXdJvdnzp3F3AHRamacPqzQ59A4xsGGH8kjbku4UqKfXDrkJQSV6aIQWC5AoxRJGhZ9L4yphSYx2YIBEJ3NnEMWhnOZNlk6YF6bqWKKT7PN3B2D8fmFs1rusy2sK6/XCUCS6mshBJYjXUxudVBa1Bq1bW1FpfDU5is6x7Kp6kACDF+/SCJqHoWRF0mPWDYUnBfbStFFn7yVRwskmEzaP2NSFSFXmZfwPgy1PCXdg3uFLNiPTnJRNWvNtYhMmF/5tYkRHFfKbhAkRaZ4tp7Ogvhy3pc5OH5JOea8s1+hk99Wgz8Gztm2BoYjOWvCkR1TJbDQh/q3Ka1r49b/WO4nux8JhITMR+1iNEfmV5b/Iwruf1foa9q9Ju7vQMHRD7Ffkko0kXZHvj+spc3d3Wf2HGbY6VAg1u3IAkqLVNy1rIWayTOXJ4zbDk9SEFUd0NfskdJk2C2CtlyEcniygHopcZpXY29uSynHsnhUvVCsiQKyozTXiXMRTTt9U/xKfxj/FmrAt/L15sLqiWl3gHXl4Sk9QBRfJjAAaaNJcRhvu/wOpiFSgtECHVLnilwjDPLnWSkS51gaTG2d7F0mJ+vlIqjF+a491JkkggJjeI/ZRDWYB7UHvOkjMen2iSph2zfmDbfSE14nsc+966277mBmboLrnEx34mh0WUimymNKMsVh4+IxaZB1oCfjKfoOS4d4TMVrKdglFmTemD0tDptAFZKscevmkIUmAg/uAjgRAU0hUBaQRjOtvpy9Hqku1pGGw4RJoDsStrBGSDgIf33nX1tbRCzuSDOA0Waqn2C3u+vTqpH+Bnjd7PWyhqRlzEY4eKBkIg3/132Q35kclJPMRn5L51iwr7b+uhDlObAHF4tCBOfjs1cXUksn+klnQfSlK+X7n3I9LJUV+R1FhUNQfrJaqRJkib+/wbqDpaA3uEKgtNTz8Fn5bx+hGBEZhGI3SVwNLOBJG4nvCUyJ9/cd0YXZKBdtZPdNnR6yXkYxPsd1oS9tLzva9dNgcvE+FejVfKb6yUTs8nZuSqMkmZ+jPXl4dS8v8yho1xNT3LZIgMBA3dpbUSfoVOyg5QEg+tB2uxdinqzBe9tC2bF2J/AeeC9VJyBmD28NH5OdFeOW9CXJDzzSuS9+MBJdr0n2pJOapR9sZ0M1xaWRrfkxYRYGVrsc14rAyweFxCX1p2Z+wiaRhIVvDdA9hccvV9ZCUUNlZSoBeD7qWnzN4d1NkOhbVjLLlHW8oOptTj3PgbH7fmcEs89EtC3VMW4widORfwkNmUR6S9fyxeQLhpkUUd6UuqEs4H+sy5cUSKX/gyj4Wc96ZfjtWXT1c3ZcWNDg2NAgzJT+CzAXAuQ75N496Ma3+HB8EzuJC0FD5sAJMp/0cuYR0oOIkyJUvWxOEFPinfxCe3ZJFZEz38UyMwKpeInD2qGbojDlWGUp3xTQoLl6USdIeqvVLzpihgX5gSetwD7UkOxF2CXLjp+FrIvk4jks2TUiUJXnXYrCc+8gKmQ8E6AiOIVBMdAbkB7FR1RazC1eBCq9fsH4W9fakWdCs7CoeBV7SYbI1l7AI1L1YdocahmkatvIIOZ+TZQl8Kdp/8py2CnFGgQ/GqeiVzRpFDCiNgjP3bKSpiM7pDfjoj30LcBEFMEy+3A51qqr/RdqdfeI0PeHLYIQVB06/4AFnNkQrnYAmF8pcOewvcJK1svL0Iirnna2AID1WuI30AyLxxWtCoBedi/oIk0Vb3CgojZ61auIzS55Hd5U/nAo9jIboAXP/ioVp2GRA2/HqbLqk86nIXSWdD0C8we29/UKqzx4aEZHpQuwZHvCGB/xibyDHVfSeg4QQFTenHbYkp7+jqxi15zlSsmsTTdGHXk1eDozRJHp7aSNtnZRirPfZWzydRLbuL2i8WlVWgfTpTUEv+ZdweWceDbZmWnBL6k5JxMeUDwYXsgnG0RBc1GORQx4QqxtxsS9ctbqChxNwVM9EET8ZS53Ha4mI6AnRlP2pl9zz8AU8H6qP3h4KiGuWfqFCZ6/0WJeplvMgINUX1wcf7TdkZ47iZUBH/ffF/XTA0MK7Ies/nQ55UA4OTbM2jTe68BD6zXzGcmqh+TV7s2J96C8uLm/3USHi3tFu3ab/G/S0pjDV98FjhAvpMxrtDt8QOj4+0Mqm2+knCXhJBDKfwlVP6FSL8eYez7OXsly3tq4AZ7wFba9tZRKSizNVr1OL20JfwHau914CCFO6upjpePZsP0czZhV9elewgRrTxsCoy0ZMLvb+kH8coOFvKcE0qCTBSzheOJa68jvYtukITYzJPt+25+545Bajf0/zloXh16hTMqyuzY20Ja48QgUqEabFqWfiimdDjGhsRm21siHr3mmbyujwPoJkkYzX4mIhmvUdDSOpxVAZ19sCCZ8c+xm67r/2s4uq5ud8gy0tcH0OW+dZMqcwWRRkEx1AvEyXOx/TxvqqHH/BOkWtIE+/WHy+UauzahYQGnCIaMg6woEqzIQn6qClTIhX9bUHXeyLnwMS1DkAmf6g5VziG+/aXfw910g2wJywxcNM+oZF9KVKDIjMs9Jvcqv4Ywl4egOC7865CgQ92az+agtD9Ce+7lka0xTCMFAdAn5lhU8UGEcngPeyzEHi6pDt/Q9v172m/bN8LxKc1yQva1vtOq7DWf8CyGYucpUppE+UtTVFHm1fn+vEh+lG4PYlp8A3vF8/uiSvtVnd57+BZmcRJTtfetVubnJp8dKq1gEqDxkctsoliIFl2AHToMQMvgDb26/Vz0x9qwVXKUL/FC/1mJltuT04Ph2FWYWSpqaTLc7VurKf4c50lqYotkB2gK4itxr3bdTnoq2fdsKd8T1ZLWl6ez9vkuMOCfNVW1M4JH5ragIHbLDnAiXD9aQcNL7MBFtCvuSqfSoa3jAIGkuSwstpArii9rLS0FCx9pgh2ztahyQG3Ud2cP97jeB6cdQkF21OoVIJC7ChoHMBuAvhkrgOpHhlu66oLPWl6iw08sV2//adimDUk2oN/R8iNJTC7mb6WaK5K+Iq4BTf9wzSt76eQpUQWIzIF6A8sMNtbazYhqvkoFZ6metxb0LXGA3lmqebFdhIOxdEFnlIrKYfh9ADM5cDusvDymq4zMowfAZPWADxsuaRAJ46T12V3+w8uTvjSSlPutFrZkPTGnvm9k1yDVB5tSYJiBlJ8m7xSzGkLPfhPCOO6VUhoo0GUaYTA0bBROR2//IrP3bMO1uoft/ZsMzk+1Rpled/m4PIbuhA3i+6Ak63p9tq2gEZbjwoNBKN3xPFQ8tnhbj8RC/gpIplhgrb/bRgNcq9k6P5kiWyMV9Lp72ZDpLi2tNaBNOCtNmjSBCIGJLsvVoq/VvHSji1vPF3MBq9kDj8yeqMwMQD5QQIaM1e3/El/MNHhZCkASt5SdXtMX1rYB2F1wxOY7UaDZzoDdUgFvbCXYnuwBFd+wQzY7zrRJ3Ce7KTmBsbIuCoYunA0DI7d/mLQU/zKoS/Ohs2R6QtXXhY/TQaLtRKq7uqfNiRT1rbXRzwKHyC5eH7QfeghFSdxISFWYPbmuaAaFcIxB23pjJ6Mh4JuAGxRZ/gKjzu6FOSCeWEQjA9qTuZemHQO2/b6nRw9vveZvdQa5JQfq/Jh/SwLMjpgG7lV9YpvMJEqsfCtHFIXKpd8IxvC+yMxiNYWIji+wdLjkIVG4MuD3M3ms4d5IkuS4ywHE3uIFq/duptgM5jmjvTsMEn532rnkryXhZX0/NjL9pFNtAcuxf9MqAjfwpjGREfTst/nNjjqgzQwpnRa3coeHVjX7qPsgF5pzFtKi9IehRGJjm3b/yE5NHO4bJw0IU8zI8W000jDkON6Y2gpIQE12VrNnGe0QfMv3z4hROh6KHf/FBGzRSDmdfxr/fH7X39dsiNcRdSW7OBeZhlSFPGE1UA1/1s2tmvq9yT0nLK+5+S2T/jWYj44w/CeNcfsMol877QR/0X163toZH1fvGcEfZ/uFEz2WHFd9DaNkQIzCpaVHO4gwSt4YCYTf4BX1EQx/dmxNkZwtf9/CPPOdVjzqbXcX8O9yJWZeRxztzPLkz80bVJvEXMYM8KP9iZG23ApqfSQEiaYoO6lApb8Te3BxBbvKFG6veeFbnhfF8BxlLnYUcc0983cHzS7F2+CGY+2M5oJj5ncLatq47OIqhaU1ZWiVH7HG5W9xbm1jP34JD6IQUrrb5iLBbb+wQGK3/iDvx3q1S6H6nNqxzy09fehtGhZO+MTA8yJ0hHToqagUgByQ8IoDJA0QBCHjvfQBjX1DTXfqCuY8ortE5qtnKhyM8X3X5SOElOzONkmcMyZ86QVWGYHNSkExEj1slQJTZfzW07XQC6OpMjOrwxgD8gBzMGIi+mq7PB6dTuaP6nJzEXoWOw6YuT9ffUkr5b2je8/+4irkBfWsmTTcllSx2DG1GCq+ORfzmwDdMnY9u8+AG5OKzVcOuBU7Z6WhS51qHlc1S+o8ChGGDlYCTRwjxLRf07h3CoM47TwzuGFXc8DjhTlFdIPVHndLbX16DPISlYPZEfHFKl6iKp4vkcj+HTU68D+Epsub+XbiVSV+OZ4a1gPZwIOjGY8BpG1Rfs25TzrOAV7pQQ9crhsEdhDDBwzuDs7yNGmJ4KXauiAxqVMycPHi5F12lohTki5q4YEtQ/zQf1Up2p2/+Ru0Kr8Vv32I7++r6fYzd15jsQheMXykCr8OnM1ncaIqR9y5J2Fhxhwk0zbtvJL9yHCMJDhjnMs9OhtTEMKn5g9t1l7Tfy4NV7gwhYzM5fJS+Nh/1D8Q40QVh8W9Skc0bUViZm2pn9sPKChrIX99c/uDz4ahV+XP1D7ZNFr0Th1C4WBKrygzd9DkTYVguKQUkh9058L/EWGpNmezVWd7+yoZ/q1DrZX4P9ovj3HAM9guPnMwqtOfqaGHRDxG99m+3YpAWvhhyHcy8AIfIPBgdV/3qfJ1jk1hCCZ43b3dNWkwK7lVY86RWvq8DK8GvFYmvXrae9eFIXeL3TnuBB8EDUUUh9XxKcZptf1M0THwtuq3WtTWqsVvFnCz56tW/TeQDEMYPQUYQFApHV4xEOxPfJhkSbdgmB8VWOmUEV/bGH+NGKJ6kVZE/kgtMutuaXHlA+p4LBg2TPrQwlKiJtCWOW2sxMefWuajHWF/qj8kgtY7bhGIZ6d/Pad/NBVijG7fSN2+aOovb2JLuUMm0UNosGg7y40W14Go4xI8CNsTMUsiVX33pcKuZ/Mm4vo7SlOaA0nXJo9Fn1uxrcIlBcIMM6r2KD0lFkHO7YzRlW0HQeYgJE3umM9RT3bKHI7h1W70yojZkd5ra3HRJC8jZl1y5s78Q9J3FP+uXUi70Qu9hV+f61c5/oapI6TJPqWDz63zGS6Bl+R7Lsi1VcmC3xbSr6MT6S4rSUPTzm9qP3gmyaJSOMohG4bS2Viu/0kuyDfvfiX0oN+umNALcjPiu4RzbdwUrzM0RLq1AcJzixedeZ0jEDJ1o4woOGuWSo9gNaH7NGQpj8Y3lfjTqt8RTw2+6t5PGVq6Ikb6hUEklv7D4tk9C93VqkSNhfLvOS7s9mrTWJ/arplBFJqS57bNE57ZdJfxQJv+HUZbRIafpqElZOKFEyL3S8arOYOTidBah+bzuH4YTwMmeqNJi76G9a9gduqa5QP3Gpo6awvDILJ9+hTvCcrFjzVEeWGEtX+eLRtD8RrJvQa/1Hojgos2iGReZ27pqwb3vyxEZHtfOJmmR7zHH1C1vZyN7ZtRSpS0CAw98RFSLfdBD8c/90kmzznJsTPjT2noiw+aPrk8J56HdiqNmdpilfi+tKbPlnthqtgw6FFfmujldX9f56QZYvyk6+U7xSa7nys4X4a026ybZOq12mzoC8DocxT0GIFSCa5CCJxURR0s3tKxJBj6kXw4ONqSGR/cQQTQVWTsTzPVhgiysWSiW8PAWW6DYcV+2DixejermH4tOIzA3ph5wX/XXfyBq0kMU6Wq3Ag3HjaOIb0HakWqqP8yTnFM8lnl5YVMMoxvxXwvy+fZev168ik0UnvL/LPhLkxWTs381eKmVOqZriEoO+1jJ67jjQ8AmeotOnOA+OTCImxNEbqKxL+8afVHef7ueLp6dhVFYPhoKSdheX9y7LYk+2oniJNXNX4mtYjECMUoESqkjVLi5oCDEh0CrlEzzwEsSbeHTRGx2F1+cOyRQ3V+8Ra0kUZgO8nwVtluxuJLmPSmVJwmgko7Kl+6/k/MVnoV8WL2hXVuJdH3WqPoqrR8IykKAT3ZAn+u0MuH1to5y2mqfo7lreUrJXSBXpRFlGBUSPTOE2NWqIsldzMmoJUSeFBHgReImveDV3lc8ltNPURn5WeBU5v2VlW4drFy9eImxHaxKrrPkQkiiKMfmcTm/qbyR8t4FBCnLvLWUHnsWEFlnyjxxCeDKDlaaR8EDNyMR5q3kxYqPknL4z7ivRJAfqnOUguQ01MguH6t0Cz1XgJFvxY16ePZyyNPdtPPjY1BfQ7bPTKrpY7+/qljuQ3EyoRFwm3fpbWcpQxEKLh02xqFfMauxW/VOXv+MIfcFdzEro8f39DzfCADpKVJSNANV8ACiX8Rydm7t6MpQi/75d/yhlibTBBuDYlb0Dqb7yh3wG9Cc7XPg8lvxzYTvP5rus5R7ovsE2XvTGYqy3C6NSmeVkdBz6xgQSG4Et1rJhSJEMn9cwHAO+fSblDxwmWQqnTHTbwC072fz2GYeYjPO+lR+stLxW/fiCL9opF3V7FG/GZAyKwBGXI7YPNkImMT4h6hnK/XA03TAvZboDazJZPT9X4bClKr2aHNms34aIYZLlEfKAO9TSPDjOn87W8YCOevU6EAvQWRXrvIwyVssShhLEbP+S1woSGGUq1haCqEMpmB6zKppR/6lDZZWaZSuQAg05K+Yw4E5SynSet+04b5wdD8ZkLGO5C2qCwgeX86UGzVXBL1tOUtfvD3svjIgaAIUwCL+4kmvrajRQ1+uMV4v+nX9OkWXyB7aveCrEbVm034zU1m8Imbf7e4WdNi9AQMzkszTdedxMj3ae2KqpjXtCXZkr7C6emtewafpG7KeF+LSxoPXpHHCc45NJf+JZjv5V6ouxxSfvlcqAZ/ELYrikdcZ68vNz3R9RUsiuCH1mx2G8hXzCKEoa/FA8abxKaeVAfCRm5z/VE7V5Su836OtJht3dwOa+wE8kEGXSuNIR7cx5Y9FHBFyFWBkQMr2TC6syGRokQniRnTriqJf/b4KniikPUhNjVUPYhfZPnIyCyBIyPQRvHWOy9WnaUIk2qpMijrq3+j9c5kl64jO/DrLcBhulLkPBfiqf1XCheWrl8pPDq0fksFQEARztC9wU9m0tLruOXx2nMdQ18reIE1c78U0Stu3E949YNNgU//8SafAvhMpMYF6oqlHUx5bTmQ3NEhwyoJs8Qh2ClHjDsOj3Jw7+zxEPTOP2iig4/dOdgdvFseF2i3BBD+sk4wDKbPdiBEP+QZgHTexLWNyuNHKJjnmvIBgyS7C+nySfh5r9XDLujZTezE17cUIgn78jsDSrenL13ZByh0rF2t3698CcLX3JycPzDDe1pub9cLdxC4fkplvbmeYhEPezVmke1yLIYQNcfwuqxQsPxfemOY9AHezMdfXEs5mEP3Smy7QfWkdfsrVlPbY3An14k3DVaOYabZJkv74eVSq697IS9f29lnhcYe1Zg2HVPPa6yqhB3IcEVNxLuG9u09Zgcq4vp3yCf3LlkBIt/V9YmBkQZV2xHqm7ydu82avdZfpwTdgs4yoS+CZAaBbgy3Sy+Bwcqg6XA2KJkUMUmagUk2kHZ3RLrg9EsG7eXYmu+bblbmvYESJCOBnb9YNqKw7Ohx9BuG1+PMXnvrZqSyPFjZdPJM87uAagkhU3ZdT2Ff5ReEXIqyRTpOphAp8pWM8SCYdxdPCMjoOgL8gsY/Y0Yh3oZ4SvqPC2mgKAHEHi8PTWqMP7Qvr2fRa/pRKXuA/E3LWozeYLDFS23Zrcx7BVNCIL+W2lsk9YrEJar9SBiYB7VJkt/bPXGQQYJ37OGMbPqq0DDNJGYhCcnzcV3w8+kjw0t1TpdfebZFrc54P2eJjO0+DoY3GooWQ9GHTByBnXEfyqhDWJBuj/zhbsuabpyqscLcrzZaZ51tXthLCWQNKIoyMQtvymh64JWvtDegUNL51iY5BbPoiYNB4V61mCuTYjj0eeCsg3ToenHq73nR9S++jhDWUCBcRRNiK1v0h3SS2DbJcmjk2Fz+h+YiwjTCnJBvo4E3Uzes06bTRe5T68+OB05nEEiJPhPEU85JFSewa7loRXdFhPcWkFukJFgPFWPvrJh2L05rlvfsVgC0CZSztgZZ5XYLNAKW4fIh176tzSPYZCNhNuLlUv4OGFDWAlxNXhbEOv9PNQVzw8VDoniYaAia3slQiLPOzqQel7yXqQq96OQcfjr4ijMZNgDn5Wkwddjz7oz4mqw8l5opBJZfNJJERuAxTriUzfSl8xzncAo7gyZbccIN4sXSou8q00rWVhHqsWyqxaxA4TAa2zLpUIYSrh53vLKIE5rD8e9rC6e9usGUz2EfQ0hc/Qt5abC19z7FKkh3cRK0ny94mtcywUhHDQjMK9oU2n43ptYUFbeW/efxqRCg+aKQObMIb0NEiCzmdXdm6K4RoY2M7wYef9eT78cFOfzOp3LoshZ1Z9W9zgVerXXO3MnYg1SnInDeiZZhtP5saEj2+wGsOrxhrP3/z+1FbHWSbT3rV75I0/hM7QmLTeYHfKP1soCkOe9LxJLBekhBprqQq2dwiWWTtzeZOYFCQgowIJ2PD7ffUb0tzQ7XQSi7Hk7ENxmexJFPucRwja2muPXH5wm7MLMhw0kYHEbTAOpZjZaSZVpHXMUs1e6tCcJ0kRw9boUU0iphnLkH3pMD9pif/sIySbaB8cF3H7kKK8RTQfMsKTRC10r/Yez0B/ebfY3ej0X1nuel6cOXmr8HES6DXj7w6LSS1yYvmC3ZRx29DZh3viQa74oGUAGaOOCFbnXwdGPELz/5MpTZM4qBpt17s9iU3TTe0TCQjw7b9Z+czeM6vyHTj5Mz9v62ha8g/x+A+AGAtjaQRw1C9IcA/gAFLb6XmYfc+VZ9Swyvuhsm/SaedQdDOOunXhBJW4UOxyRx7ruaq7m2BLQ3xa/UXg53RlPTc3XsT0pSwPZfPfIJYlSY/w1p3fEKdvxTsopwjwo0Ald00fZ45InHfCPt0XOIbWTLlaop4UQUZK1CjE5ldxGT8WiSUpNncUYgel+Du8+Eqh9bdkxthw6iYpY+26d/vae4pdiRHGdWS6Rn+8kYkOGT8ztZpR2Gdd+APT8HsCwmwBSeDRmDccoEWBhDmIY9vhsL6+gmQVrBb1uAAHQDohODr8pAv2Z3T0esPOSY8t9o3KerwSVZ3hjUmvImRiOCtRmyxyXjfwhH2UPjDpg3mPFYL4WxaMZe3nFvNZyMLZryEo2oxPCo0taRLeWglx+Yq4TJKWSW8Jl2wYS9nSyJHM0Ynrhf3MGDlE7GoN099MhcpgkTEftG7PTfu46zEk1Qsvdis9h9mXjwlNTTeJrFvs9fDBujkN1M1S7VGml/aMr2zpYNOfOn0z/PaF9bnOSF+wsiM3OmWIlBprselVEHOJQUW0QCcTbxdolVX6TA5qhUb9PNd9qcA/wGgtdU2+PsVYA/AtAmHFjdJXYeG5jp6e7Hhnre/jz6jjKYCkfykbW8gXPSAlppnXh0cQnZw5BeNlKdyp+D7gNhXi+1vYhyNmN6EfRQjto19qRVlVqGD3+t0l3cOU8z1Aq08FRt7u9JQ8qvwz41WhD8VhvlG7gXPWPEJ6o85T7yUxYpcvgppl0txESM2xfkCHIHW62GnvsonJ0we81u0RYKZuZXfbMEa9bnWwVmUIio8qfePYvmUTa3306zsUsZpyc4Ab/z3oD/T/TncT7fXZzd8EFcJYrWUxaSMckMNviQj2JSsOngNbJwFuGVOOvTJNR+skKRjM7mdarfakno+gyYpICZSAjVaPJVT1SsPri/JXxQJdqxocG+54f+oQHAhQLQzrPmhugW/wWJxHK9lJf7IjAfoirkDof54wgI+Vhy8RSDltIEWeoGumBTj6Z1uBcpFt8DeXoNla52UodYrPfQwUoZLNfXMCtsYNzObeU7qv72P0mZsim1vGMwuxNTacSGnXfoFOlpnYsIprW9+fiC9NVnJdjYFrSDymX4vfyKqokhRgDvPZeB2eOtkyTsL/F8/MpKJeqW8i+3JP4ue957pVGbPJ6zUVvPHejPYdTr3usH7H9wqwX7GUb2jeGepSZE+Z3KLlmONN4/1K7t8+nBQG2M6YSi8aBtDITFReiYL/BtswKmBwbJmYZ4mVki1ud4on/3HXG4O1pBSFSPH1ixXcXRSqOt8WpAqopVsAf1Z6lLbZuDaqBWLmUfa4KnPTHVUGqjVNKeaxNWTODTdo+cElweQU0brFdy+WWxRMdeKSsVLb56cl/0sKxX5oZSvXSda//XErM1Lr4Isyr7QhFVvlWN2tK66OfGT2yYdILJ136TWiWCLUSGEA+InoRPpKrM7dqYQ/sa+cVqw1NBA3C0NiuifLUel/9an+sYJ6bXsXl3SU8iA8cWglu/dgmqOgs6U+IhcXA7PkFGL8zZ1DUR7QehTnNOQh4BybDaqooNjYIypRcdydG+dqkheoY8tjzCH5bFem5OebawgChz2WAa6tJTlru+OeV0gx/fCnoRr/+7kSXya9MxwrzbMi+XX3WrQL/PQEFbph4E89FFjPNxR9HHjhHHzMnk8SdGeWfkNkRTja+NaX9zDF6B4d25H3BglKcfE1XbVNQ7W179HmSvbNwjwSN4ku/Ye0Jjg13uJfPmGdiOCtZhs0oMHux1l6PcOcbBhP4ntC5CkrWc+m1FKVVssd3PR2gYwGKnS9o8hEUOi1OcRsDs2vLKipwQg/THfh+vrB/voayQ0+el9saQhaeqfHHTa2b7GHsbxq7ftDimiP9prDRi325sw6DuLPf2sDNSPryYbd8f565p0J5qm3k7grFlW+DzhpuDyKCBrsma9wSfEWYmF1wNXM95xyjKZNrcamgkbDAm0c0YBmPcxRjbLYe/1y285/Lidp0haZ9L8R09p+TspCsT6nkB/HVzOXe5PPyJEDGwo0D3i+eFUbmpWR5klJFxiPR1utQ9iK957YMI2Oi1BVZEtQL7ewxTKKTIkqPfxMb9FpblTrwlXbXgX+BqdfY7v5Bk21DLzpyEpNnPLXK7V0hm5p8wmyJyp7kXOe1Aor/qqXKerPU7Mqul2S3RDhig4VWNQE20Zc7mGZtdrDtah3zrD/PnY6vO0hD2aKqlBsEWLeLpDcGFEkCKfh6mBCkmGqtMo/ef9zTJ8h4hiRegRWITyc4YKHZPXAxTblsly8nwOA6zXDYX+8zoc1elK61PwDCUpwyjIhQlBAa4oGUlJb7vUzY8ihO+qsITHhFCPVD2JQM6U1saXsaSD5awNfp6vKHULDNNRvEB9EJ35IY08j7x2eycCmd2Ma6/z1/7F3AfiSUQCSveAQGzPkQ2ZXNjMA2W9fq3FzW7I2QiNHOG+lzlsDT/jn9iKordsEF15kly9BCBN2R8s/D2oRPavm67sMZT2Hy+FrAFFm2QoIbN/QnhqJfqlO8N2zpfXKE8KKKEbYzhCWzFDomJxCxFSceDPVxWRCAX9MDhoBApkNRNX3tHcOhtgZ32LLFM34h1BIZQLzNtBekK4bCt3PlKSmVi0hFpTbn5uEVkSpUxpQ86KTDUyv+NVuRQsDkgUCoBzgmcNmnlOdBhY3jI9A1qPlbeeuPT+iFl9SHp98FXkKZKCaOczFkYSaXTRWO9Zo+uMHM1mnxdK6Zul7tcTtiNaJsl7syZIQTcNgdlcLbn83M2ExTGZwyLBX/iE8VNH5NkPdttGNlTNq+tpxSXpULVpcsEuKewdjCx3e5N4ssWGPAgcCJALthV0wR5X+U8NyO6elaQYs2lIZlizkqjnPM1bA/o65uRf2egtitD+Q7fcnIy5lgkRTaP1JfHqv3ZjcFplVAXUeaGcvDjOFBy6ArzL5yrzmZW0v+ZeECsQ5ZSQc+I/xvML41msX+ei0C/p10jzrAmbiAdKiyUafnmjBcKZ7ECfwoaJDBX6INKDJvgE+mqnsO0ki2TtgCTydI5hasGG0Wz8H8DlzwA2rUvivM3PEAPJTzD3fuZ1rE1CLJF5c/woP80Ivu4Ragl9VRqV+/iOmIHKbbrw74isEGX7IvpQdBb6VCbag/eBxhKbr5AwPcAMGx8DwcQd48w13oJIcULY+Q+TwyIDPg+3fTGSY/rZhipjThyKAI7tODbnwr5Ph4VmuMdrlUrsMakmwO7VdHnFqlmrwlP6FqTm4sVIo4TElRM3KWFVnY8wGNtPiyO7aIffT1ngRwzFY+KuVZMmGe972tq8T3MpTmh+2nqqARevQ7P5b897VrG9YI1nYizfez62pD4g1JoY6WfG7yoZbQNBt/0dIiaA5lCrc8RdLBU+wzFMUrIS2D7m+rxLNz1y0PPNWZelMoZwyJ9cTub699gcMHyXDglYG5kOYm6evisM7RkFUPO9wbl+m4Cbo5GtiAw4JyrKdMRQTXRRtAiaUS3DTnLxTOab8GBa9iFiMd6OURXlDG2krww58tLfBMjY52OydPa3iqpjLnR4JD1pZYtIQVEB/kSC9RKEsrwu5+OXJwOZaCuyzAdSwYMeQjlE2tJjOzIBB7qEeRV8mNyf0jjpXQrw0tbz7gD7mMnTOfalKh2FXUdVfE9qg8ODaBYwciqyW7haiOutSod+C2sOckoOLSVH6vi89rKwOuhFwgGdBGG2P6jKoAewrw3L8RwdVxGUsw9Ne9IirLU3H9LRhIpn1hW2JVRB91M8PIdp4k+WbyjsUSGI7jITZRIJfUKyGl7Q72bxSYod69GL1gFnMVb7m7usq+MC+2lI/E1jl7ms/e5gxjSTg/XvLUa53mgfJaq0SwYEXdhSe89v7NpVv5QenKTTQ3SAb3mLoDP9MZluQ9enCHptA9fFKUi3S+R5CJ/+/+Tz8ikNVG/Ktl5MhukYhS9MYae6JtLTuXgMB6+xB7U52jD7hAfQWForCDj5jLwL2v4RdeXy6BdxSyTwooRNx1qys9hsZ74">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2652F6CC">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Ix9s0HWAA44WeqrsRtNFxPxA296pSmU88Y5UACiebArO5WLIbgtDIkmbSUhg3C613iZvE/BHp2ChK8r0b+D06/Sgy0N4D+nMQG9OmDsdS7sTlRZ0ANqZz2cmbjYsdQmC6zYuge3R1NrIPYuSv5yzuwgYX464kjKS3L1dsiRpbhrDKKEpJ9reJk5tKQzse1CKBQshDRE4Q2M5zzmIcHjdeNRQG2UoqKzuCvl9VWmv7Q/H51mFah9HXI15kZpYX5TmvOZzTg==">
+</div>
+            <div class="i-pdf-first--page">
+                <div>
+                    <span id="lblIPAddress" class="displayNone">103.169.246.57</span>
+                </div>
+                <input type="hidden" name="hdfEmailAddress" id="hdfEmailAddress" value="ayat24811@gmail.com">
+                <input type="hidden" name="hdfIsEmailVerified" id="hdfIsEmailVerified" value="Y">
+                <input type="hidden" name="hdfAppformId" id="hdfAppformId" value="101042511">
+                <input type="hidden" name="hdfdob" id="hdfdob" value="12-03-2007">
+                <input type="hidden" name="hdfIsSandesActive" id="hdfIsSandesActive" value="false">
+                <input type="hidden" name="hdfGurdianEmail" id="hdfGurdianEmail" value="ko7608332@gmail.com">
+                <section class="headerfirst" id="i-Header">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <img id="imgLogoRight" class="img-responsive pull-left" src="./confirmationPage.aspx_files/Handler1.ashx" style="border-width:0px;">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                <h1 class="text-center heading_header">
+                                    <span id="lblHeader">National Eligibility Cum Entrance Test (UG) - 2025</span>
+                                </h1>
+                                <h3 class="text-center subheading_header">
+                                    <span id="lblSubHeader">राष्ट्रीय पात्रता सह प्रवेश परीक्षा (स्नातक) - 2025</span>
+                                </h3>
+                                <h6 class="text-center third_subheading_header">Confirmation Page
+                                </h6>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <img id="imgLogoLeft" class="img-responsive pull-right" src="./confirmationPage.aspx_files/Handler1(1).ashx" style="border-width:0px;">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-condensed">
+                        <tbody><tr>
+                            <th style="text-align: center; font-size: 20px; font-weight: 600; width: 25%;">Application No.
+                            </th>
+                            <th style="text-align: center; font-size: 20px; font-weight: 600; width: 25%;">
+                                <span id="lblApplicationNo">250411423820</span>
+                            </th>
+                            <td colspan="2" style="text-align: center;">
+                                <img class="c-width--30" id="barcode" src="data:image/png;base64,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">
+                            </td>
+                            <td>
+                                <span id="lblCorrectionStatus" text-align="center" font-weight="600" style="font-size:20px;">-</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="5" style="text-align: center;">
+                                <span id="lblTitle">DO NOT SEND THIS PAGE TO NATIONAL TESTING AGENCY (NTA).</span>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan="5">CANDIDATE IS REQUESTED TO RETAIN THE PRINTOUT OF CONFIRMATION PAGE FOR FUTURE REFERENCE.
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                <div id="pnlRevPersonalDetails">
+	
+                    <h4>
+                        <span id="lblHeadCapPersonal">व्यक्तिगत विवरण(Personal Details)</span>
+                    </h4>
+                    <div class="table-responsive">
+                        <table width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            
+                            <tbody><tr>
+
+                                <td id="tdRevCandidateName" width="25%">
+                                    <span id="lblCapName">अभ्यर्थी का नाम (Candidate's Name)</span>
+                                </td>
+	
+                                <td width="25%">
+                                    <span id="lblCandidateName">UMAMASUMBUL JAMAL KHAN</span>
+                                </td>
+                                <td id="tdRevDob">
+                                    <span id="lblCapDOB">अभ्यर्थी की जन्म तिथि (Candidate's Date of Birth)</span>
+                                </td>
+	
+                                <td width="25%">
+                                    <span id="lblDOB">12-03-2007</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="tdRevMname">
+                                    <span id="lblCapMName">माता / अभिभावक का नाम (Mother's/Guardian's Name)</span>
+                                </td>
+	
+                                <td>
+                                    <span id="lblMName">SHAHEDA</span>
+                                </td>
+                                <td id="tdRevGender">
+                                    <span id="lblCapGender">लिंग (Gender)</span>
+                                </td>
+	
+                                <td>
+                                    <span id="lblGender">Female</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="tdRevFname">
+                                    <span id="lblCapFName">पिता / अभिभावक का नाम (Father's/Guardian's Name)</span>
+                                </td>
+	
+                                <td>
+                                    <span id="lblFName">JAMAL</span>
+                                </td>
+
+                                <td>
+                                    <span id="lblCapNationality">राष्ट्रीयता  (Nationality)</span>
+                                </td>
+                                <td>
+                                    <span id="lblNationality">Indian</span>
+                                </td>
+                            </tr>
+
+                            
+                        </tbody></table>
+                    </div>
+                    <div class="table-responsive">
+
+                        <div id="pnlRevNCCDetails" style="width:100%;">
+		
+                                
+                            
+	</div><div id="pnlRevJKDetails" style="width:100%;">
+		
+                                
+                            
+	</div><table width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            
+                            <tbody><tr id="trRevSingleGirlChild">
+		<td width="50%">
+                                    <span id="lblCapSingleGirlChild">अगर अभ्यर्थी ‘लड़की’ है तो, क्या आप अपने माता-पिता की ‘केवल बालिका’ हैं ? (In case of Girl candidate, Are you only girl child of your parents?)</span>
+                                </td>
+		<td>
+                                    <span id="lblSingleGirlChild">No</span>
+                                </td>
+	</tr>
+	
+                            <tr id="trRevDomicile">
+		<td>
+                                    <span id="lblCapDomicile">उम्मीदवार के अनुसार पात्रता की स्थिति (State of Eligibility as per candidate)</span>
+                                </td>
+		<td>
+                                    <span id="lblDomicile">MAHARASHTRA</span>
+                                </td>
+	</tr>
+	
+                            <tr id="trRevBirthCategory">
+		<td width="50%">
+                                    <span id="lblCapBirthCategory">श्रेणी (Category)</span>
+                                </td>
+		<td>
+                                    <span id="lblBirthCategory">General</span>
+                                </td>
+	</tr>
+	
+                            
+                            
+
+                            
+                            <tr id="trRevPwD">
+		<td>
+                                    <span id="lblCapPwD">क्या आप एक PwD / PwBD उम्मीदवार हैं जिनके पास सरकार के मेडिकल बोर्ड द्वारा जारी मान्य और सक्रिय विकलांगता प्रमाण पत्र है? (Are you a PwD / PwBD candidate having a valid and live Disability Certificate issued by Medical Board of Govt)?</span>
+                                </td>
+		<td>
+                                    <span id="lblPwD">No</span>
+                                </td>
+	</tr>
+	
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                            <tr id="trRevAreYouDiabetic">
+		<td>
+                                    <span id="lblCapAreYouDiabetic">क्या आपको मधुमेह हैं? Are You Diabetic?</span>
+                                </td>
+		<td>
+                                    <span id="lblAreYouDiabetic">No</span>
+                                </td>
+	</tr>
+	
+                            <tr id="trRevPlaceOfResidence">
+		<td>
+                                    <span id="lblCapPlaceOfResidence"> निवास की जगह (Place of Residence)</span>
+                                </td>
+		<td>
+                                    <span id="lblPlaceOfResidence">Urban</span>
+                                </td>
+	</tr>
+	
+                            
+                            
+                            
+                            
+                            <tr id="trRevIncomeCategory">
+		<td>
+                                    <span id="lblCapAnnualIncome">वार्षिक पारिवारिक आय (Annual Family Income)</span>
+                                </td>
+		<td>
+                                    <span id="lblIncomeCategory">UPTO 100000</span>
+                                </td>
+	</tr>
+	
+                            
+                            <tr id="trRevBelongsToMinority">
+		<td>
+                                    <span id="lblCapMinority">अल्पसंख्यक के हैं (Belongs to Minority)</span>
+                                </td>
+		<td>
+                                    <span id="lblBelongsToMinority">No</span>
+                                </td>
+	</tr>
+	
+                            
+                            
+                            <tr id="trRevNationality">
+		<td>
+                                    <span id="lblCapNationality1"></span>
+                                </td>
+		<td>
+                                    <span id="lblNationality1"></span>
+                                </td>
+	</tr>
+	
+                            <tr id="trRevAppliedForOtherExam">
+		<td>
+                                    <span id="lblRevCapAppliedForOtherExam">निवास का देश (Country of Residence)</span>
+                                </td>
+		<td>
+                                    <span id="lblAppliedForOtherExam">India</span>
+                                </td>
+	</tr>
+	
+
+
+                            
+                            
+                            
+                            
+
+
+                            
+                            
+                            
+                            
+                            <tr id="trRevOtherInformation">
+		<td align="center" colspan="2">
+                                    
+                                         <table width="100%" class="table table-bordered ">
+                                            <tbody><tr>
+                                                <td align="left" width="50%">
+                                                    <span id="rptRevCandidateOtherInfo_ctl01_lblCandidateOtherInfo">क्या आप NEET (UG) -2025 में ड्रेस कोड के विपरीत प्रथागत पोशाक पहनने का इरादा रखते हैं  (Do you intend to wear Customary Dress contrary to the Dress Code while appearing in NEET (UG) - 2025)</span>:
+                                                </td>
+                                                <td align="left" style="font-weight: 400;">
+                                                    <span id="rptRevCandidateOtherInfo_ctl01_lblCandidateOtherInfoValue">Yes</span>
+                                                </td>
+                                            </tr>
+                                             </tbody></table>
+                                         <table width="100%" class="table table-bordered ">
+                                            <tbody><tr>
+                                                <td align="left" width="50%">
+                                                    <span id="rptRevCandidateOtherInfo_ctl02_lblCandidateOtherInfo">तैयारी का तरीका (Mode of Preparation)</span>:
+                                                </td>
+                                                <td align="left" style="font-weight: 400;">
+                                                    <span id="rptRevCandidateOtherInfo_ctl02_lblCandidateOtherInfoValue">Online Coaching</span>
+                                                </td>
+                                            </tr>
+                                             </tbody></table>
+                                        
+                                        
+                                </td>
+	</tr>
+	
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                            <tr id="trIdentityType">
+		<td>
+                                    <span id="Label18">पहचान सत्यापित (Identity Verified)</span>
+                                </td>
+		<td>
+                                    <span id="lblIdentity">Aadhaar</span>
+                                    &nbsp;&nbsp;<strong><span id="lblIdentityText">**** **** 3160  / Name as per Aadhaar : UMAMASUMBUL JAMAL KHAN</span>
+                                    </strong></td>
+	</tr>
+	
+                            <tr id="trApaarid">
+		<td align="left">
+                                    <span id="Label20">अपार आईडी (APAAR ID)</span>
+                                </td>
+		<td align="Left">
+                                    <span id="lblapaarid">No</span>
+                                </td>
+	</tr>
+	
+                        </tbody></table>
+                        <div style="border: 1px solid #ccc; padding: 3px;">
+                            
+                        </div>
+                    </div>
+                
+</div>
+                <div id="pnlRevApplyFor">
+	
+                    <h4>
+                        <span id="lblRevApplyForSectionHeader">परीक्षा के लिए चयन करें (Select for Exam)</span>
+                    </h4>
+                    <div class="table-responsive">
+                        <table cellspacing="6" cellpadding="4" width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            <tbody><tr id="trRevApplyFor">
+		<td width="50%">
+                                    <span id="lblCapApplyFor">परीक्षा के लिए चयन करें (Select for Exam)</span>
+                                </td>
+		<td>
+                                    
+                                    <div id="Panel1" class="lblstyle" dir="ltr" style="background-color:White;border-color:#CCCCCC;border-width:2px;border-style:Solid;width:425px;overflow:auto;border-radius: 4px; padding: 2px 8px;">
+			
+                                        <table id="cbApplyFor" disabled="disabled" border="0">
+				<tbody><tr>
+					<td><span disabled="disabled"><input id="cbApplyFor_0" type="checkbox" name="cbApplyFor$0" checked="checked" disabled="disabled"><label for="cbApplyFor_0">National Eligibility Cum Entrance Test(UG)</label></span></td>
+				</tr>
+			</tbody></table>
+                                    
+		</div>
+                                </td>
+	</tr>
+	
+                            
+                            
+                            
+                            
+                            
+
+                            
+
+                            
+
+
+                            
+
+
+                            
+
+
+
+                            
+
+
+
+                            
+
+                            
+                            
+
+                            
+                            
+                            <tr id="trRevQuestionPaperMedium">
+		<td width="50%">
+                                    <span id="lblCapQuePaperMedium">प्रश्न पत्र माध्यम (Question Paper Medium)</span>
+                                </td>
+		<td>
+                                    <span id="lblQuestionPaperMedium">English</span>
+                                </td>
+	</tr>
+	
+                            
+                            <tr id="trRevChoiceofExamCentre1">
+		<td width="50%">
+                                    <span id="lblCapExamCity1">परीक्षा राज्य / शहर-पहला विकल्प (Exam State / City-1st choice)</span>
+                                </td>
+		<td>
+                                    <span id="lblChoiceofExamCentre1">MAHARASHTRA - Mumbai</span>
+                                </td>
+	</tr>
+	
+                            <tr id="trRevChoiceofExamCentre2">
+		<td width="50%">
+                                    <span id="lblCapExamCity2">परीक्षा राज्य / शहर-दूसरा विकल्प (Exam State / City-2nd choice)</span>
+                                </td>
+		<td>
+                                    <span id="lblChoiceofExamCentre2">MAHARASHTRA - Navi Mumbai</span>
+                                </td>
+	</tr>
+	
+                            <tr id="trRevChoiceofExamCentre3">
+		<td width="50%">
+                                    <span id="lblCapExamCity3">परीक्षा राज्य / शहर -तीसरा विकल्प (Exam State / City-3rd choice)</span>
+                                </td>
+		<td>
+                                    <span id="lblChoiceofExamCentre3">MAHARASHTRA - Thane</span>
+                                </td>
+	</tr>
+	
+                            
+
+                            
+                            
+                            
+                            
+                            
+
+                            
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                            
+                        </tbody></table>
+                    </div>
+                
+</div>
+
+                
+              
+                
+                
+                
+                <div id="pnlGateDetail">
+	
+                    <h4>
+                        <span id="lblHeadCapGATEDetails">अतिरिक्त जानकारियां (Additional Details)</span>
+                    </h4>
+                    <div class="table-responsive">
+                        <table width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            <tbody><tr id="tr_GateQualified">
+		<td width="50%">
+                                    <span id="lblCapGateQualified">क्या आप जुड़वा हैं और दोनों नीट (यूजी)- 2025 के लिए आवेदन कर रहे हैं (Are you a Twin and both applying for NEET (UG) – 2025) ?</span>
+                                </td>
+		<td>
+                                    <span id="lblGateQualified">No</span>&nbsp;
+                                
+                                </td>
+	</tr>
+	
+                            
+                        </tbody></table>
+                    </div>
+                
+</div>
+                
+                
+                
+                <div id="pnlAdditionalParticularsDetail">
+	
+                    <h4>
+                        <span id="lblRevAdditionalParticularsSectionHeader">अतिरिक्त जानकारियां (Additional Details)</span>
+                    </h4>
+                    <div class="table-responsive">
+                        <table width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            
+                            
+                            <tbody><tr id="trAreYouaStudentAnyUniversityRev">
+		<td width="50%">
+                                    <span id="lblAreYouaStudentAnyUniversityRev">क्या आप कभी NEET (UG) परीक्षा में उपस्थित हुए हैं (Have you ever appeared in the NEET (UG) examination) ?</span>
+                                </td>
+		<td>
+                                    <span id="lblAreYouaStudentAnyUniversity">No</span>
+                                </td>
+	</tr>
+	
+                            
+
+                            <tr id="trBirthCountryRev">
+		<td width="50%">
+                                    <span id="lblBirthCountryRev">जन्म स्थान (Place of Birth)</span><span id="DivBirthStateRevText">&nbsp;/&nbsp;<span id="lblBirthStateRev">राज्य (State)</span>&nbsp;/&nbsp;<span id="lblBirthDistrictRev">जिला (District)</span></span>
+                                </td>
+		<td>
+                                    <span id="lblBirthCountr" class="MsgLabel">India</span><span id="DivBirthStateRevValue">&nbsp;/&nbsp;<span id="lblBirthState" class="MsgLabel">UTTAR PRADESH</span>&nbsp;/&nbsp;
+                                        <span id="lblBirthDistrict" class="MsgLabel">BALRAMPUR</span></span>
+                                </td>
+	</tr>
+	
+                            
+
+                            
+                        </tbody></table>
+                    </div>
+                
+</div>
+               
+                <div id="pnlRevContactDetails">
+	
+                    <h4>
+                        <span id="lblHeadCapContactDetail">वर्तमान पता (Present Address)</span>
+                    </h4>
+                    <div class="table-responsive">
+                        <table width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            <tbody><tr>
+                                <td width="50%">
+                                    <span id="lblCapAddress">पता (Premises No/ Name)</span>,
+                                    <span id="lblCapLocality">उप-स्थानीयता (Sub-Locality)</span>,
+                                    <span id="lblCapCity">स्थानीयता (Locality)</span>
+                                </td>
+                                <td>
+                                    <span id="lblAddress">SUNDERBAUG LANE NEAR NOORANI MASJID KAMANI KURLA WEST MUMBAI</span>, 
+                               
+                                    <span id="lblCity">SANJAY NAGAR</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="50%">
+                                    <div id="pnlstatedistrict">
+		
+                                        <span id="DivotherCountry">
+                                            <span id="lblCapDistrict">जिला (District)</span>,
+                                      <span id="lblCapState">राज्य (State)</span>,
+                                        </span>
+                                        <span id="lblCapCountry">देश (Country)</span>,
+                                     
+                                    <span id="lblCapPinCode">पिन कोड (PIN Code)</span>
+                                    
+	</div>
+                                </td>
+                                <td>
+                                    <div id="pnlstatedistrictValue">
+		
+                                        <span id="DivotherCountryValue">
+                                            <span id="lblDistrict">MUMBAI SUBURBAN</span>,
+                                    <span id="lblState">MAHARASHTRA</span>,
+                                        </span>
+                                        <span id="lblCountry">India</span>,
+                                    
+                                    <span id="lblPinCode">400070</span>
+                                    
+	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style1">
+                                    <span id="lblCapEmail">ईमेल पता (Email Address)</span>
+                                </td>
+                                <td class="auto-style1">
+                                    <span id="lblEmail">aya******@gmail.com</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span id="lblCapMobileNo">मोबाइल नंबर (Mobile Number)</span>
+                                </td>
+                                <td>
+                                    <span id="lblisdCodeRev">91</span>
+                                    -
+                                                    <span id="lblMobileNo">976****770</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span id="lblCapLandLineNo">वैकल्पिक संपर्क सूत्र (Alternate Contact No.)</span>
+                                    (Optional)
+                                </td>
+                                <td>
+                                    <span id="lblLandLineNo">9322002037</span>
+                                </td>
+                            </tr>
+
+
+                        </tbody></table>
+                    </div>
+                
+</div>
+                <div id="pnlPSate">
+	
+                    <h4>
+                        <span id="Label11">स्थायी पता राज्य (Permanent Address State)</span>
+                    </h4>
+                    <div class="table-responsive">
+                        <table width="100%" class="table table-bordered table-condensed odd_td_bold">
+                            <tbody><tr>
+                                <td width="50%">
+                                    <span id="Label14">स्थायी पता राज्य (Permanent Address State)</span>
+                                </td>
+                                <td>
+                                    <span id="lblpSate">MAHARASTRA</span>
+                                </td>
+                            </tr>
+
+                        </tbody></table>
+                    </div>
+                
+</div>
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div id="divImg">
+                    <div id="PanImgUplode">
+	
+                        <h4>
+                            <span id="lblImgUplode">उम्मीदवार द्वारा अपलोड किए गए चित्र (Images Uploaded by Candidate)</span>
+                        </h4>
+                        <div id="trimgview" class="table-responsive">
+                            <table width="100%" class="table table-bordered table-condensed">
+                                <tbody><tr class="bg-info">
+                                    <th id="thPhoto" style="width: 30%; text-align: center;">फोटो (Photo)</th>
+	
+
+                                    <th id="thThumbImresn" style="width: 35%; text-align: center;">बाएं और दाएं हाथ की उंगलियों और अंगूठे के निशान (Left and Right hands Fingers and Thumb impressions)</th>
+	
+                                    <th id="thsign" style="width: 35%; text-align: center;">हस्ताक्षर (Signature)</th>
+	
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img id="imgCandPhoto" class="img-responsive center-block" src="./confirmationPage.aspx_files/ViewUploadDocsApplication.ashx" style="height:100px;border-width:0px;">
+                                    </td>
+
+                                    <td id="thThumbImresnImage" style="vertical-align: middle;">
+                                        <img id="imgCandThumbimpression" class="img-responsive center-block" src="./confirmationPage.aspx_files/ViewUploadDocsApplication(1).ashx" style="height:60px;border-width:0px;">
+                                    </td>
+	
+                                    <td style="vertical-align: middle;">
+                                        <img id="imgCandSignature" class="img-responsive center-block" src="./confirmationPage.aspx_files/ViewUploadDocsApplication(2).ashx" style="height:60px;border-width:0px;">
+                                    </td>
+                                    
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    
+</div>
+                </div>
+            </div>
+                
+            
+            <!--Use class .i-pdf--page for break div-->
+            <div id="ConditionalBreak" class="">
+                <div id="PanFeePayment" class="">
+	
+                    <h4>
+                        <span id="Label9">Fee Payment Details</span>
+                    </h4>
+                    <div id="trAreYouEmployedDetail" class="table-responsive">
+                        
+                                <table width="100%" class="table table-bordered table-condensed">
+                                    <tbody><tr class="bg-info">
+
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_lblFeeAmount">Activity</span>
+                                        </th>
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_lblTxnId">Application No</span>
+                                        </th>
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_lblTxnDate">Reference No</span>
+                                        </th>
+
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_Label3">Transaction Date</span>
+                                        </th>
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_Label4">Amount</span>
+                                        </th>
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_Label7">Customer ID</span>
+                                        </th>
+                                        <th>
+                                            <span id="rptPaymentDetails_ctl00_Label8">Payment Mode </span>
+                                        </th>
+                                    </tr>
+                            
+                                <tr>
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_lblPaymentProviderRemarks">Application fee</span>
+                                    </td>
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_lblTransactionId">250411423820</span>
+                                    </td>
+
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_lblTransactionDate">584203929</span>
+                                    </td>
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_Label1">28/02/2025 12:47:11</span>
+                                    </td>
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_Label2">1700</span>
+                                    </td>
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_Label5">25041142382001250228124543</span>
+                                    </td>
+                                    <td>
+                                        <span id="rptPaymentDetails_ctl01_Label6">EPG</span>
+                                    </td>
+                                </tr>
+                            
+                                </tbody></table>
+                            
+                    </div>
+                
+</div>
+                
+                <br>
+            </div>
+
+            <div id="divaddQual">
+                <div id="DivforSpaceAdd" class="clear" style="height: 200px; display: none;">
+                    <br>
+                </div>
+                <div id="Panel2">
+	
+                    <h4>
+                        </h4>
+                    
+                
+</div>
+            </div>
+
+
+            
+            
+            
+            
+            
+            </form>
+    </div>
+    <script src="./confirmationPage.aspx_files/jquery-3.3.1.min.js.download" type="text/javascript"></script>
+    <script src="./confirmationPage.aspx_files/JsBarcode.code39.min.js.download"></script>
+    <script src="./confirmationPage.aspx_files/DownloadPdf.js.download"></script>
+    <script src="./confirmationPage.aspx_files/html2pdf.bundle.min.js.download"></script>
+
+
+
+</body></html>
